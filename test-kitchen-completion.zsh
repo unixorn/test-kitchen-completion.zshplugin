@@ -5,7 +5,6 @@
 # Original source:
 # https://gist.githubusercontent.com/petere/10307599/raw/8abbadd52bf5099628c75cee75801272f84d76a9/_kitchen
 
-#compdef kitchen
 
 _kitchen() {
 	local curcontext="$curcontext" state line
@@ -44,3 +43,5 @@ _kitchen_instances() {
 }
 
 _kitchen "$@"
+
+compdef _kitchen kitchen
